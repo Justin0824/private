@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:lightcoral;
+
+}
+
+.container{
+    
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+ position: relative;
+
+
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+i  {
+
+    position: absolute;
+      left: 47%; 
+  top: 40%; 
+   font-size: 110px;
+    color: white;
+    transform: translate(-50%,-50%);
+
+}
